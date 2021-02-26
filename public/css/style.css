@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+    background: #032332;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.navbar, footer {
+    background: #033148 !important;
+    color: #fff !important;
+}
+
+.main-event {
+    margin-bottom: 120px;
+    margin-top: 60px;
+}
+
+footer {
+    padding: 4px 5px 6px 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100% !important;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-brand:hover {
+    color: rgb(235, 64, 64);
+}
+
+.navbar-ion {
+    color: #fff;
+}
+
+.navbar-ion:hover {
+    color: #rgb(235, 64, 64);
+}
+
+.login-dark .illustration {
+    padding-bottom: 0 !important;
+}
+
+
+ footer .icon {
+     font-size: 22px;
+ }
+
+ footer a .icon  {
+     color: red !important;
+ }
+
+ .new-border-top {
+     border-top: 1px solid rgb(59, 59, 59);
+ }
+ /* Slick style */
+ .slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slick-slide {
+  margin: 0px 7px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+}
+ /* End Slick style */
+
+ /* Navbar menu style */
+ .navbar-light .navbar-toggler {
+    color: red;
+    padding: 7px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand .ion {
+    color: #ddd;
+    margin-right: 4px;
+}
+
+.nav-cicle-play {
+    font-size: 25px;
+    color: red;
+}
+.notification-blade {
+    padding-bottom: 5px;
+}
+
+
+.slider-desc {
+    color: #fff !important;
+    margin-top: 4px;
+    font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+/*If on laptop, disable all slide then activate bootstrap card*/
+.slider-img {
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 750px) {
+    .slider-desc {
+    width: 120px;
+}
+}
+
+@media only screen and (max-width: 750px) {
+    .slider-img {
+        width: 120px;
+        height: 120px;
+}
+}
+
+@media only screen and (min-width: 750px) {
+    .responsive-left {
+        float: left !important;
+}
+i.ion-android-share-alt {
+    padding-left: 40px;
+}
+.footer, .live-heading {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 750px) {
+    .post-heading, figcaption {
+    text-align: center;
+}
+}
+
+.live-heading {
+    margin-top: 15px;
+}
+
+.show-thumbnail {
+    margin-top: -12px;
+}
+
+#sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    z-index: 1031;
+    float: left;
+    padding: 8px;
+    background-color: #033148;
+    display: none;
+}
+
+.list-group-item {
+    background-color: inherit !important;
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.list-group-item-action {
+    color: #ddd;
+}
+
+.sidebar-ion {
+    padding-right: 8px;
+}
+
+
+.search input {
+    background-color: transparent;
+    color: #ddd;
+    border-radius: 40px;
+    outline: none;
+    outline-style: none;
+    border: 1px solid rgb(88, 78, 124);
+}
+
+.search input:focus {
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border: 1px solid rgb(88, 78, 124);
+    color: #fff;
+}
+
+.search-container {
+    background: #033148;
+    padding: 6px 0 1px 0;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    width: 100%;
+}
+
+
+.result {
+    margin-top: 130px;
+}
+
+
+.search-reult-container {
+    display: inline-block;
+    padding: 10px;
+}
+
+.add-comment-section input {
+    background-color: transparent;
+    color: #ddd;
+    border-radius: 40px;
+    outline: none;
+    outline-style: none;
+    border: 1px solid rgb(88, 78, 124);
+}
+
+.add-comment-section input:focus {
+    background-color: transparent;
+    color: #ddd;
+    border-radius: 40px;
+    outline: none;
+    outline-style: none;
+    border: 1px solid rgb(88, 78, 124);
+}
+
+.add-comment-section button {
+    background-color: inherit;
+}
+
+.comment-text {
+    color: #ddd;
+}
+
+
+/* Audio Styles */
+#play-pause-icon:hover i {
+    color: red !important;
+}
+
+#play-pause-icon:focus i {
+    color: red !important;
+}
+
+#play-pause-icon:active i {
+    color: red !important;
+}
+
+@media only screen and (min-width: 430px) {
+    .audio-container {
+        display: none;
+}
+}
+
+
+
+/* Comment style */
+.card {
+    border: none;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03)
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-10 {
+    font-size: 12px
+}
+
+.devotion a:focus {
+    outline: 0;
+    outline-style: 0;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+}
